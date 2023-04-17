@@ -9,7 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  "makerj/vim-pdf",
+  {
+    "makerj/vim-pdf",
+    event = "User AstroFile"
+  },
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
@@ -91,5 +94,6 @@ return {
       }
       inline_runner.langs.js = inline_runner.langs.javascript
     end
-  }
+  },
+  "ayu-theme/ayu-vim",
 }
