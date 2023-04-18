@@ -5,14 +5,14 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      ensure_installed = { 
+      ensure_installed = {
         "lua_ls",
         "pyright",
         "clangd",
-        "cpptools",
-        "eslint-lsp",
-        "html-lsp",
-        "rust-analyzer"
+        -- "cpp",
+        -- "html",
+        -- "html_lsp",
+        "rust_analyzer"
       },
     },
   },
