@@ -9,7 +9,6 @@ return {
         "lua_ls",
         "pyright",
         "clangd",
-        -- "cpp",
         -- "html",
         -- "html_lsp",
         "rust_analyzer"

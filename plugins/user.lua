@@ -96,4 +96,53 @@ return {
     end
   },
   "ayu-theme/ayu-vim",
+  "TheNiteCoder/mountaineer.vim",
+  "nelstrom/vim-blackboard",
+  {
+    "junegunn/goyo.vim",
+    cmd = {
+      "Goyo",
+    }
+  },
+  {
+    "dinhhuy258/vim-local-history",
+    event = "User AstroFile",
+    cmd = {
+      "LocalHistoryToggle"
+    },
+  },
+  {
+    "jbyuki/venn.nvim",
+    cmd = {
+      "VBox"
+    }
+  },
+  {
+    "tpope/vim-surround",
+    event = "User AstroFile"
+  },
+  {
+    "stevearc/oil.nvim",
+    opts = {
+
+    }
+  },
+  -- {
+  --   "aca/emmet-ls",
+  --   event = "User AstroFile",
+  --   config = function(emmet_ls)
+  --     emmet_ls.setup({
+  --       -- capabilities = capabilities,
+  --       filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "svelte", "pug", "typescriptreact", "vue" },
+  --       init_options = {
+  --         html = {
+  --           options = {
+  --             -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+  --             ["bem.enabled"] = true,
+  --           },
+  --         },
+  --       }
+  --     })
+  --   end
+  -- }
 }

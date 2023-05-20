@@ -34,7 +34,13 @@ return {
     "Prev buffer" },
     ["<A-l>"]      = { ">b", desc = "Moves the buffer to the right" },
     ["<A-h>"]      = { "<b", desc = "Moves the buffer to the left" },
-    ["<C-t>"]      = { "<cmd>ToggleTerm<cr>" }
+    ["<C-t>"]      = { "<cmd>ToggleTerm<cr>" },
+
+    -- Venn 
+    ["<leader>v"]  = { "<cmd>lua Toggle_venn()<cr>", desc="Toggle venn" },
+
+    -- Oil
+    ["-"]          = { require('oil').open, desc="Open oil on current file"},
   },
   t = {
     -- setting a mapping to false will disable it

@@ -9,9 +9,11 @@ return {
     wrap = false,          -- sets vim.opt.wrap
     -- TermGUI configuration
     termguicolors = true,
-    guifont = "JetBrains Mono:h13.1",
+    -- guifont = "JetBrains Mono:h13.1",
+    guifont = "JetBrains Mono:h12"
   },
   g = {
+
     mapleader = " ",                 -- sets vim.g.mapleader
     autoformat_enabled = false,      -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
     cmp_enabled = true,              -- enable completion at start
